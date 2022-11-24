@@ -10,3 +10,14 @@ console.log(a);
 let c = x + a;
 console.log("Sum of random value : " +c)
 
+//to read 2 digit random value and print sum and average
+var result = 0;
+for(var i=0 ; i<5 ; i++ ){
+    let c = Math.floor(Math.random()*99)+1;
+    console.log(c);
+    result = result + c;
+}
+console.log("the sum of 5 random value is : " + result);
+var avg = result/5 ;
+console.log("the average is : " + avg);
+
