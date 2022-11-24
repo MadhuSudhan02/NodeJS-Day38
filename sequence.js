@@ -6,3 +6,7 @@ console.log(x);
 let a = Math.floor(Math.random()*6)+1;
 console.log(a);
 
+//adding the value of two random value and printing it
+let c = x + a;
+console.log("Sum of random value : " +c)
+
