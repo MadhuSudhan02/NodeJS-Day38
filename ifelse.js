@@ -51,3 +51,12 @@ else{
 
 
 // Write a program to simulate a coin flip and print out "Heads" or "Tails" accordingly.
+
+var head,tail;
+var random = Math.floor(Math.random()*10)+1;
+if(random<5){
+    console.log('head');
+}
+else {
+    console.log('tail');
+}
