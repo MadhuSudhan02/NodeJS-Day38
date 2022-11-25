@@ -7,6 +7,23 @@
 // }
 // console.log("the random values are : " +c);
 
-function getRandomArbitrary(min, max) {
-    return Math.random() * (max - min) + min;
+// var arr[i] = Math.floor(Math.random()*999)+100 ;
+// console.log(arr[i]);
+var arr = [121,234,122,111,456];
+var max = arr[0];
+for(var i=0; i<arr.length; i++){
+    if(arr[i]>=max){
+        max=arr[i];
+        // console.log('setting max to : ' + max);
+    }
 }
+console.log('the maximum value is : '+max);
+
+var min = arr[0];
+for(var j=0; j<arr.length; j++){
+    if(arr[j]<=min){
+        min=arr[j];
+        // console.log('setting max to : ' + min);
+    }
+}
+console.log('the minimum value is : '+min);
