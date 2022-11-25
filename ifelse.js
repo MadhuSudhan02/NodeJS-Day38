@@ -27,3 +27,27 @@ for(var j=0; j<arr.length; j++){
     }
 }
 console.log('the minimum value is : '+min);
+
+
+//Write a program that takes day and month from the command line and prints true if
+// day of month is between March 20 and June 20, false otherwise.
+
+
+
+
+// Write a program that takes a year as input and outputs the Year is a Leap Year or not
+// a Leap Year. A Leap Year checks for 4 Digit Number, Divisible by 4 and not 100 unless
+// divisible by 400.
+
+let year=2000;
+if((year%100==0 && year%400==0) || (year%100!=0 && year%4==0)){
+    console.log(year + ' : its a leap year');
+}
+else{
+    console.log(year + ' :not a leap year');
+}
+
+
+
+
+// Write a program to simulate a coin flip and print out "Heads" or "Tails" accordingly.
